@@ -1,9 +1,15 @@
 preorder(root, left, right)
+
 [3,9,20,15,7]
+
 inorder(left, root, right)
+
 [9,3,15,20,7]
+
 從preorder可以知道第一個元素是root.
+
 在inorder中找到對應的root，root左邊是左子樹，右邊是右子樹。
+
 用遞迴處理左右子樹，直到處理不了就是沒有元素為止。
 
 演算法:
